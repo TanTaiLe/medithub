@@ -1,0 +1,93 @@
+*, body {
+    font-family: MyriadPro;
+}
+.body {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.header-top {
+    background: rgb(0, 169, 0);
+    height: 40px;
+}
+.header-bottom {
+    background-color: rgb(249, 249, 249);
+}
+.header-top .list-icon {
+    align-items: center;
+    color: #fff;
+    margin-right: 15px;
+    height: 15px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.row {
+    align-items: center;
+}
+.list-icon__res i {
+   font-size: 17px;
+   line-height: 34px;
+}
+
+.list-icon.fb :hover {
+    background-color: #3b5999;
+}
+
+.header-bottom .logo {
+    width: 480px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #00354f!important;
+    font-size: 20px;
+    position: relative;
+    padding: 20px 25px!important;
+}
+
+.dropdown-menu {
+    top: 100%!important;
+    min-width: 13rem!important;
+    background: #00a900e3!important;
+    border: 1px solid transparent!important;
+    border-radius: 3px!important;
+}
+
+.dropdown-item{
+    font-size: 17px;
+    color: #fff!important;
+}
+
+.dropdown-item:hover {
+    color: #00354f!important;
+} 
+
+.intro img{
+    width: 250px;
+}
+
+ a.list-icon__res {
+    text-align: center;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.intro__content {
+    margin: 15px 0;
+    font-size: 32px;
+    padding: 0 20px;
+    text-align: center;
+    color: #00354f;
+}
